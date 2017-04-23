@@ -1,0 +1,476 @@
+/*
+@font-face {
+    font-family: 'PingFang-Regular';
+    src: url('/scripts/pingfang/PingFangReg.eot');
+    src: url('m/scripts/pingfang/PingFangReg.eot?#iefix') format('embedded-opentype'),
+    url('/scripts/pingfang/PingFangReg.svg#PingFang-Regular') format('svg'),
+    url('/scripts/pingfang/PingFangReg.woff') format('woff'),
+    url('/scripts/pingfang/PingFangReg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+#login ::-webkit-input-placeholder {
+   color: white;
+   font-size:12pt;
+}
+
+#login :-moz-placeholder { /* Firefox 18- */
+   color: white; 
+   font-size:12pt; 
+}
+
+#login ::-moz-placeholder {  /* Firefox 19+ */
+   color: white; 
+   font-size:12pt; 
+}
+
+#login :-ms-input-placeholder {  
+   color: white;
+   font-size:12pt;  
+}
+
+body {
+	margin:0;
+	padding:0;
+	min-height: 850px;
+}
+
+html { 
+  background: url('/uploads/boy1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+}
+
+.left_sub_part_P a:hover, a:active{
+	cursor:pointer;
+	color: #47a4c9;
+}
+.left_sub_part_P a, .left_sub_part_P a:visited {
+    color: white;
+}
+.left_sub_part_P a:link {
+	color: white;
+    text-decoration: none;
+}
+
+
+video 
+{
+	
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+#top_bar{
+	weight:100%;
+	height: 60px;
+	top:0;
+	background-color:#848484;
+	opacity: 0.4;
+	border: 0px;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+	z-index: 1;
+}
+#logo  {
+	color: white;
+	height:60px;;
+	width:450px;
+	float:left;
+	font-family: 'Franklin Gothic Heavy', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-size: 40px;
+	margin-left:50px;
+	margin-top:6px;
+	z-index: 2;
+	position: absolute;
+	}
+#logo img {
+	max-height: 80%;
+}
+#tright_bar {
+	height:30px;
+	padding:15px;
+	float:right;
+	width:800px;
+	padding:0;
+}
+#signup {
+	margin-top:12px;
+	height:36px;
+	width:100px;
+	/*font-family: 'PingFang-Regular' , 'simhei';*/
+	font-size: 20px;
+	float: right;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin-right:100px;
+	text-align: center;
+	padding:5px;
+	color:  white;
+	right: 0;
+	position: absolute;
+	z-index: 2;
+	box-shadow: 0px 0px 15px;
+}
+#signup:hover {
+	cursor:pointer;
+	color:#28FFD5;
+	border-color: #28FFD5; 
+}
+
+#Poster {
+	margin-left: 20px;
+	margin-top: 100px;
+	width: 700px;
+	height:500px;
+	float: left;
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	*/
+}
+
+#page_container {
+	weight:100%;
+	height:800px;
+
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#Poster1 {
+	margin-left: 0px;
+	margin-top: 100px;
+	width: 500px;
+	height:500px;
+	float: left;
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	*/
+}
+
+#Poster video {
+	object-fit: cover;
+}
+
+#Login {
+	width:352px;
+	height:350px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	/*
+	position:absolute;*/
+	top: 50px;
+    left:100px;
+	padding:0;
+	background-color: inherit;
+}
+
+
+.Login_top_border {
+	width: 100%;
+	height: 2px;
+	background:url('/user/topborder.jpg');
+	
+} 
+
+.Login_part {
+	border-top: none;
+	-webkit-box-shadow: 0px 11px 16px -2px rgba(0,0,0,0.66);
+	-moz-box-shadow: 0px 11px 16px -2px rgba(0,0,0,0.66);
+	box-shadow: 0px 11px 16px -2px rgba(0,0,0,0.66);
+	border: 1px solid white;
+	background: rgba(52, 52, 52, 0.4);
+}
+
+#Login_Logo {
+	height:50px;
+	width: 100%;
+	float: left;
+	font-size:18pt;
+	padding: 4px;
+	font-family:'SimHei';
+	color: white;
+	text-align: center;
+}
+
+#Login_Footer {
+	width: 100%;
+	height: 80px;
+	bottom: 0;
+	float: left;
+
+}
+
+#Login_part_foget {
+	width: 100%;
+	height:50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:30px;
+}
+
+#Login_part_fogepw {
+	height:20px;
+	float:left;
+	margin-left:20px;
+	font-size:10pt;
+	padding: 2px;
+	font-family:'SimHei';
+	color: white;
+}
+
+#Login_part_new {
+	height:20px;
+	float:left;
+	margin-left:170px;
+	font-size:10pt;
+	padding: 2px;
+	font-family:'SimHei';
+	color: white;
+}
+
+#Login_part_fogepw:hover,#Login_part_new:hover,#Login_part_fogepw:active ,#Login_part_new:active{
+	cursor:pointer;
+	color:#0FC0D1;
+}
+
+
+.ur{
+	margin-top: 5px;
+	height: 37px;
+	border: 0px;
+	color: white;
+	width: 236px;
+	margin-left: 20px;
+	/*margin:4px 28px;*/
+	background:url(/user/user.png) no-repeat;
+	padding-left:10px;
+	font-size:16pt;
+	font-family:'SimHei';
+	clear：right;
+
+}
+
+input {
+	border-color: white;
+	outline: 2px;
+}
+.pw{
+	height:37px;
+	border:0;
+	color:white;
+	width:236px;
+	margin-top:4px;
+	margin-left: 20px;
+	background:url('/user/password.png') no-repeat;
+	padding-left:10px;
+	font-size:16pt;
+	font-family:'SimHei';
+}
+
+#wrong_name {
+	margin-top: 0px;
+
+	font-family:'SimHei';
+	width: 200px;
+	height:25px;
+	margin-left:0px;
+	clear: left;
+}
+
+#wrong_info {
+	height: 20px;
+	width: 0px;
+	float:left;
+	margin-left:0px;
+	background: red;
+	/*font-family:'PingFang-Regular', 'Microsoft YaHei','微软雅黑',tahoma,arial,simsun,'宋体';*/
+	color:white;
+}
+
+#emp_box {
+	color:white;
+	font-family:'Microsoft YaHei','微软雅黑',tahoma,arial,simsun,'宋体';
+	margin-top:180px;
+	width: 150px;
+	height:100px;
+	float:left;
+	margin-left:10px;
+}
+
+.emp_name {
+	font-family:'Microsoft YaHei','微软雅黑',tahoma,arial,simsun,'宋体';
+	margin-top:15px;
+	width: 200px;
+	height:25px;
+	float:left;
+	margin-left:0px;
+	background:red;
+}
+
+#emp_name1 {
+	height: 80%;
+	width:0px;
+	float:left;
+	margin-left:0px;
+	background: red;
+}
+
+#emp_name2 {
+	height: 80%;
+	width:0px;
+	float:left;
+	margin-left:0px;
+	background: red;
+}
+
+.login_info{
+	font-family:'SimHei';
+	float:left;
+	margin-left:15px;
+	font-size: 20px;
+	color:white;
+	line-height:42px;
+}
+
+.hide {
+	display: none;
+}
+
+#card_body {
+	float:left;
+	width:100%;
+	height:500px;
+	border: 1px solid black;
+	margin-bottom: 100px;
+}
+/****************login button********************/
+.button1 {
+	width: 120px;
+	height: 36px;
+	border: 2px solid white;
+	border-radius: 10px;
+	/*font-family: 'PingFang-Regular', 'simhei';*/
+	font-size: 20px;
+	text-align: center;
+	color:white;
+	padding:5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	-webkit-box-shadow: 1px 1px 16px -20px ;
+	-moz-box-shadow: 1px 1px 16px -20px ;
+	box-shadow: 1px 1px 16px -20px ;
+}
+
+.button1:hover {
+	cursor:pointer;
+	color:#28FFD5;
+	border-color: #28FFD5; 
+}
+/************************************/
+#Footer {
+	width: 100%;
+	height: 120px;
+	border: 0px;
+	margin-bottom: 0;
+	float: left;
+	position: fixed;
+	bottom: 0;
+
+	/* opacity: 0.4; 
+	filter: alpha(opacity=40); /* For IE8 and earlier */	 
+	 * */
+	border: 0px;
+	/*background: rgba(52, 52, 52, 0.4);*/
+}
+		#logo1 {
+			color: white;
+			height:60px;;
+			width:250px;
+			float:right;
+			font-family:"Franklin Gothic Heavy";
+			font-size: 40px;
+			margin-top:20px;
+			z-index: 2;
+			}
+/*
+.blur {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+*/
+#Footer_menu {
+	width: 1000px;
+	height: 100px;
+	/* background-color: white; */
+	/*border: 1px solid;*/
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	padding:0;
+	/*filter: alpha(opacity=100);*/
+	
+}
+
+.Footer_menu_part {
+	width:200px;
+	height: 100%;
+	/*border: 1px solid;*/
+	float:left;
+	margin-left:20px;
+	padding:0px;
+}
+
+.Footer_menu_part h4{
+  margin-top:5px;
+  /*font-family:'PingFang-Regular', 'Microsoft YaHei','微软雅黑',tahoma,arial,simsun,'宋体';*/
+}
+
+.Footer_menu_part h5{
+  margin-top:5px;
+  float:left;
+  margin-left:10px;
+  font-family:'Microsoft YaHei','微软雅黑',tahoma,arial,simsun,'宋体';
+  color: white;
+  font-size: 14px;
+}
+
+.Footer_menu_part_line {
+	/*color: rgba(52, 52, 52, 0.4);*/
+	color: white;
+	border: 1px solid;
+	float:left;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+
+
+.portmove1 {
+	margin-top:100px;
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+}
+
+.welcome {
+	margin-top:20px;
+	width: 100px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}

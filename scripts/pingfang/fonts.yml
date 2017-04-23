@@ -1,0 +1,266 @@
+---
+# Fonts.yml
+# Copyright (C) 2013-2015 Zeno Zeng and other contributors
+# Lincensed under the MIT License
+
+# 字体的排序会按照在这个文件中的顺序排列
+
+###########################
+# 黑体
+###########################
+
+- 
+  name: PingFang
+  alias: PingFang SC
+  family: 黑体
+  platform: Mac
+
+- 
+  name: 冬青黑
+  alias: Hiragino Sans GB
+  family: 黑体
+  platform: Mac
+
+- 
+  name: 思源黑体
+  alias:
+    - Source Han Sans CN
+    - Source Han Sans SC
+  family: 黑体
+  platform: Adobe
+
+- 
+  name: 微软雅黑
+  alias: Microsoft YaHei
+  family: 黑体
+  platform: Windows
+
+- 
+  name: 文泉驿微米黑
+  alias: Wenquanyi Micro Hei
+  family: 黑体
+  platform: Linux
+
+# 没有必要：一般有文泉驿等宽微米黑则有文泉驿微米黑
+# - 
+#   name: 文泉驿等宽微米黑
+#   alias: WenQuanYi Micro Hei Mono
+#   family: 黑体
+#   platform: Linux
+
+- 
+  name: 文泉驿正黑
+  alias: WenQuanYi Zen Hei
+  family: 黑体
+  platform: Linux
+
+# 没有必要：一般有文泉驿等宽正黑则必有文泉驿正黑
+# - 
+#   name: 文泉驿等宽正黑
+#   alias: WenQuanYi Zen Hei
+#   family: 黑体
+#   platform: Linux
+
+# 低版本的 Mac 也已经有了华文黑体
+# - 
+#   name: 苹果丽中黑
+#   alias: Apple LiGothic Medium
+#   family: 黑体
+#   platform: Mac
+
+- 
+  name: 华文黑体
+  alias: ST Heiti
+  family: 黑体
+  platform: Mac
+
+- 
+  name: 中易黑体
+  alias: SimHei
+  family: 黑体
+  platform: Windows
+
+-
+  name: 文泉驿点阵正黑
+  alias: WenQuanYi Zen Hei Sharp
+  family: 黑体
+  platform: Linux
+
+###########################
+# 宋体
+###########################
+
+- 
+  name: Songti SC
+  alias: Songti SC
+  family: 宋体
+  platform:
+    - Mac
+
+- 
+  name: 华文宋体
+  alias: STSong
+  family: 宋体
+  platform:
+    - Windows[MS Office]
+    - Mac
+
+-
+  name: AR PL New Sung
+  alias: AR PL New Sung
+  family: 宋体
+  platform:
+    - Linux
+
+-
+  name: 文鼎ＰＬ简报宋
+  alias: AR PL SungtiL GB
+  family: 宋体
+  platform: AR PL
+    
+- 
+  name: 新宋体
+  alias: NSimSun
+  family: 宋体
+  platform: Windows
+
+- 
+  name: 中易宋体
+  alias: SimSun
+  family: 宋体
+  platform: Windows
+
+- 
+  name: 全字库正宋体
+  alias: TW\-Sung
+  family: 宋体
+  platform: 全字库
+
+- 
+  name: 文泉驿点阵宋
+  alias: WenQuanYi Bitmap Song
+  family: 宋体
+  platform: Linux
+
+- 
+  name: AR PL UMing
+  alias: 
+    - AR PL UMing CN
+    - AR PL UMing HK
+    - AR PL UMing TW
+    - AR PL UMing TW MBE
+  family: 宋体
+  platform: Linux
+  note: 在 Linux 下可能遇到前几种字体都没有安装的情况，在极端情况下暂时先用 AR PL UMing 代替
+  
+
+
+###########################
+# 楷体
+###########################
+
+- 
+  name: Kaiti SC
+  alias: Kaiti SC
+  family: 楷体
+  platform:
+    - Mac
+
+-
+  name: 华文楷体
+  alias: STKaiti
+  family: 楷体
+  platform:
+    - Windows[MS Office]
+    - Mac
+
+-
+  name: AR PL UKai
+  alias:
+    - AR PL UKai CN
+    - AR PL UKai HK
+    - AR PL UKai TW
+    - AR PL UKai TW MBE
+  family: 楷体
+  platform: Linux
+
+-
+  name: 文鼎ＰＬ简中楷
+  alias: AR PL KaitiM GB
+  family: 楷体
+  platform: AR PL
+
+-
+  name: 楷体
+  alias:
+    - KaiTi
+    - KaiTi_GB2312
+  family: 楷体
+  platform: Windows
+
+-
+  name: 全字库正楷体
+  alias: TW\-Kai
+  family: 楷体
+  platform: 全字库
+
+
+###########################
+# 仿宋
+###########################
+
+- 
+  name: 华文仿宋
+  alias: STFangsong
+  family: 仿宋
+  platform:
+    - Windows[MS Office]
+    - Mac
+
+- 
+  name: 仿宋
+  alias:
+    - FangSong
+    - FangSong_GB2312
+  family: 仿宋
+  platform:
+    - Windows
+    - Mac
+
+-
+  name: CWTEX仿宋体
+  alias: CWTEX\-F
+  family: 仿宋
+  platform:
+    - CWTEX
+  note: CWTEX仿宋体是繁体字型
+  
+###########################
+# 明体
+###########################
+
+- 
+  name: AR PL UMing
+  alias: 
+    - AR PL UMing CN
+    - AR PL UMing HK
+    - AR PL UMing TW
+    - AR PL UMing TW MBE
+  family: 明体
+  platform: Linux
+
+-
+  name: 新细明体
+  alias: PMingLiU
+  family: 明体
+  platform:
+    - Windows
+    - Mac
+
+-
+  name: 细明体
+  alias: MingLiU
+  family: 明体
+  platform:
+    - Windows
+    - Mac

@@ -1,0 +1,321 @@
+[08-Nov-2015 20:48:03 America/Denver] PHP Notice:  Undefined variable: pnum in /home1/sweetgre/public_html/qafone/user/login.php on line 501
+[08-Nov-2015 20:48:33 America/Denver] PHP Notice:  Undefined variable: pnum in /home1/sweetgre/public_html/qafone/user/login.php on line 501
+[08-Nov-2015 20:57:13 America/Denver] PHP Notice:  Undefined variable: pnum in /home1/sweetgre/public_html/qafone/user/login.php on line 509
+[08-Nov-2015 20:57:31 America/Denver] PHP Notice:  Undefined variable: pnum in /home1/sweetgre/public_html/qafone/user/login.php on line 509
+[08-Nov-2015 21:08:43 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home1/sweetgre/public_html/qafone/user/User_Function.php on line 2
+[08-Nov-2015 21:24:28 America/Denver] PHP Notice:  Undefined variable: res_code in /home1/sweetgre/public_html/qafone/user/login.php on line 502
+[08-Nov-2015 21:25:30 America/Denver] PHP Notice:  Undefined variable: res_code in /home1/sweetgre/public_html/qafone/user/login.php on line 502
+[08-Nov-2015 21:25:37 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 55
+[08-Nov-2015 21:25:37 America/Denver] PHP Notice:  Undefined index: password in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 56
+[08-Nov-2015 21:39:59 America/Denver] PHP Notice:  Undefined variable: pnum1 in /home1/sweetgre/public_html/qafone/user/login.php on line 510
+[08-Nov-2015 21:41:36 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:41:36 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:41:38 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:41:38 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:42:07 America/Denver] PHP Notice:  Undefined variable: pnum1 in /home1/sweetgre/public_html/qafone/user/login.php on line 510
+[08-Nov-2015 21:42:15 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:42:21 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:42:21 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:42:29 America/Denver] PHP Notice:  Undefined variable: pnum1 in /home1/sweetgre/public_html/qafone/user/login.php on line 510
+[08-Nov-2015 21:42:44 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:44:05 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:44:05 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:46:44 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:46:44 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:46:45 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:46:45 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:46:59 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:46:59 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:47:34 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:47:56 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:47:56 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:47:59 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:47:59 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:48:17 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:48:17 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:48:19 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:48:19 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:48:22 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[08-Nov-2015 21:48:22 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:49:36 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:54:04 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sweetgre_qafone.user' doesn't exist' in /home1/sweetgre/public_html/qafone/user/getuserid.php:14
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/getuserid.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 14
+[08-Nov-2015 21:56:23 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/getuserid.php on line 6
+[09-Nov-2015 11:47:32 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'field list'' in /home1/sweetgre/public_html/qafone/user/verify.php:17
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/verify.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/verify.php on line 17
+[09-Nov-2015 11:54:52 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/sweetgre/public_html/qafone/user/verify.php on line 20
+[09-Nov-2015 11:56:34 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/sweetgre/public_html/qafone/user/verify.php on line 20
+[09-Nov-2015 11:56:54 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/sweetgre/public_html/qafone/user/verify.php on line 20
+[09-Nov-2015 12:00:15 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home1/sweetgre/public_html/qafone/user/verify.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/verify.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/verify.php on line 28
+[09-Nov-2015 12:04:33 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home1/sweetgre/public_html/qafone/user/verify.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/verify.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/verify.php on line 28
+[09-Nov-2015 12:04:35 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home1/sweetgre/public_html/qafone/user/verify.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/verify.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/verify.php on line 28
+[09-Nov-2015 12:04:55 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home1/sweetgre/public_html/qafone/user/verify.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/verify.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/verify.php on line 28
+[09-Nov-2015 12:05:53 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home1/sweetgre/public_html/qafone/user/verify.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/verify.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/verify.php on line 28
+[09-Nov-2015 12:05:55 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home1/sweetgre/public_html/qafone/user/verify.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/verify.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/verify.php on line 28
+[09-Nov-2015 12:06:55 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home1/sweetgre/public_html/qafone/user/verify.php:29
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/verify.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/verify.php on line 29
+[09-Nov-2015 17:02:06 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[09-Nov-2015 19:25:37 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 55
+[09-Nov-2015 19:25:37 America/Denver] PHP Notice:  Undefined index: password in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 56
+[09-Nov-2015 23:55:07 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 55
+[09-Nov-2015 23:55:07 America/Denver] PHP Notice:  Undefined index: password in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 56
+[11-Nov-2015 01:15:51 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[12-Nov-2015 11:51:19 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[14-Nov-2015 15:38:09 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[14-Nov-2015 18:22:03 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[16-Dec-2015 12:55:41 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[16-Dec-2015 12:56:06 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[16-Dec-2015 13:45:16 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[17-Dec-2015 09:52:40 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[20-Dec-2015 13:46:42 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[26-Dec-2015 20:30:41 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[31-Dec-2015 13:33:42 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[02-Jan-2016 00:28:45 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[02-Jan-2016 08:47:37 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[05-Jan-2016 11:28:04 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[05-Jan-2016 17:06:18 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[08-Jan-2016 16:31:03 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[08-Jan-2016 21:46:20 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[12-Jan-2016 18:47:27 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[16-Jan-2016 12:43:26 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[21-Jan-2016 15:02:39 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[24-Jan-2016 00:46:46 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3
+[01-Feb-2016 22:35:23 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 55
+[01-Feb-2016 22:35:23 America/Denver] PHP Notice:  Undefined index: password in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 56
+[27-Apr-2016 20:13:36 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:25
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 25
+[27-Apr-2016 20:13:52 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:25
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 25
+[27-Apr-2016 20:14:58 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:25
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 25
+[27-Apr-2016 20:15:12 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:25
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 25
+[27-Apr-2016 20:15:19 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:25
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 25
+[27-Apr-2016 20:15:56 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:25
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 25
+[27-Apr-2016 20:16:50 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:25
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 25
+[27-Apr-2016 20:18:47 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:23
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 23
+[27-Apr-2016 20:19:58 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:23
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 23
+[27-Apr-2016 20:20:12 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:23
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 23
+[27-Apr-2016 20:24:56 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:25:06 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:26:06 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:27:11 America/Denver] PHP Notice:  Undefined variable: username in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 20
+[27-Apr-2016 20:27:11 America/Denver] PHP Notice:  Undefined variable: email in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 20
+[27-Apr-2016 20:27:11 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:28:51 America/Denver] PHP Notice:  Undefined variable: username in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 20
+[27-Apr-2016 20:28:51 America/Denver] PHP Notice:  Undefined variable: email in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 20
+[27-Apr-2016 20:28:51 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:29:32 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:29:43 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:30:25 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:30:29 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:35:20 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:36:42 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[27-Apr-2016 20:36:50 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'E' in 'where clause'' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:28
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 28
+[29-Apr-2016 08:40:47 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `E-mail` = '414066378@qq.com'' at line 3' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:42
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(42): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 42
+[29-Apr-2016 08:42:50 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `E-mail` = '414066378@qq.com'' at line 3' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:40
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 40
+[29-Apr-2016 08:43:27 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `E-mail` = '414066378@qq.com'' at line 3' in /home1/sweetgre/public_html/qafone/user/forgetpw.php:40
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/forgetpw.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/forgetpw.php on line 40
+[29-Apr-2016 09:05:09 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home1/sweetgre/public_html/qafone/user/newpass.php:31
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/user/newpass.php(31): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/user/newpass.php on line 31
+[30-Apr-2016 09:13:23 America/Denver] PHP Notice:  Undefined variable: match in /home1/sweetgre/public_html/qafone/user/newpass.php on line 15
+[16-Aug-2016 16:13:20 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 55
+[16-Aug-2016 16:13:21 America/Denver] PHP Notice:  Undefined index: password in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 56
+[22-Feb-2017 09:30:26 America/Denver] PHP Notice:  Undefined index: username in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 55
+[22-Feb-2017 09:30:26 America/Denver] PHP Notice:  Undefined index: password in /home1/sweetgre/public_html/qafone/user/CheckLogin.php on line 56
+[22-Apr-2017 01:18:18 America/Denver] PHP Notice:  Undefined index: User_Name in /home1/sweetgre/public_html/qafone/user/Logout.php on line 3

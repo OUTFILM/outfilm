@@ -1,0 +1,158 @@
+<?php
+    include $_SERVER["DOCUMENT_ROOT"]."/config.php";
+    session_start();    
+?>
+<meta charset="UTF-8">
+<link href="Login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery.transit.min.js"></script>	
+<title>QAFone - 登录</title>
+</head>
+<body>	  
+
+
+<div id="page_container" >
+    
+<!--
+<div id="poster">
+	<img src="uploads/702.png" />
+</div>
+
+<div id="poster">
+	<video id="trailer"  muted="true" autoplay preload="true" >
+	<source src="../Trailer.mp4" type="video/mp4">
+	<source src="../Trailer.ogg" type="video/ogg">
+	Your browser does not support the video tag.
+</div>	
+
+</video>
+-->
+<div id="Login">	
+	<div style="perspective: 1000px; width: 350px;">
+	    <!--<div id="box" class="Login_part" style="transform-origin: 50% 50% -340px; transform-style: preserve-3d;
+	    margin-right: auto; margin-left: auto; width: 350px; height: 350px; ">-->
+	    	<div id="Login_Logo">登录 QAF门户站</div>
+	    	<div id="wrong_name">
+	    		<div id="wrong_info"></div>
+	    	</div>
+	    	<div class="login_info">账号</div>
+	    	<input name="username" id="username" placeholder="请输入账号" class="ur"/></br>
+        	<div class="login_info">密码</div>
+        	<input name="password" id="userpassword" type="password" placeholder="请输入密码" class="pw" />
+        	<div id="Login_part_foget">
+        		<div id="Login_part_fogepw">忘记密码?</div>
+        		<div id="Login_part_new">注册用户</div>
+        	</div>		    	
+	    	<div id="Login_Footer">
+				<div id="login_but" class="button1">登录</div>
+	    	</div>    
+	   <!--</div>-->
+	</div>
+</div>
+<!--
+<div id="emp_box">
+	<div class="emp_name"><div id="emp_name1"></div></div>
+	<div class="emp_name"><div id="emp_name2"></div></div>
+</div>
+-->
+</div>
+<div id="Footer">
+    <div id="Footer_menu">
+        <div class="Footer_menu_part" style="text-align: center">
+            <h4 style="color: #999;">合作</h4>
+            <h5>关于我们</h5>
+        </div>
+        <div class="Footer_menu_part_line"></div>
+        <div class="Footer_menu_part" style="text-align: center">
+            <h4 style="color: #999;">官方网站</h4>
+            <a href="http://www.qafone.net/index.php"><h5>QAF中文站</h5></a>
+        </div>
+        <div class="Footer_menu_part_line"></div>
+        <div class="Footer_menu_part"></div>
+        <div class="Footer_menu_part_line"></div>
+        <div class="Footer_menu_part"></div>
+    </div>
+</div>
+<script>
+    var res_code = 0;
+    /*Login Check In*/
+    $('#login_but').click(function() {
+        load_user(); 
+        function load_user() {
+            /*Ajax: communicate with check*/
+            var username = $('#username').val();
+            var password = $('#userpassword').val();
+            $.ajax({
+                url: "CheckLogin.php",
+                method: "post",
+                data: { 'username': username , 'password': password  },
+                cache : false,
+                success: function(result) {
+                    res_code = result;
+                    if(res_code==100) {
+                        $('#wrong_info').html('用户名不存在');
+                        $('#wrong_info').animate({ width:"180px"},1000);
+                    }
+                        
+                    else if(res_code==300) {
+                    	$('#wrong_info').html('用户名或者密码不正确'); 
+                    	$('#wrong_info').animate({ width:"180px"},1000);
+                    	     	                 	
+                    }
+
+                    else if(res_code==200) {
+                        transition();
+                        window.setTimeout(function(){
+
+                         // Move to a new location or you can do something else
+                         window.location.replace("http://qafone.sweetgreen.org");
+
+                        }, 5000);
+                    
+                    }
+                },            
+                error: function(jqXHR, textStatus, errorThrown) {
+                    alert(errorThrown);
+                }
+           })       
+        }
+        
+        function transition() {
+            $('#box').transition({
+            opacity: 0.1,
+            rotateY: 180
+            }, 780, 'ease-in', function() {
+                $('#box').html('<div class="Login_top_border"></div>');
+                $('#box').append(res_code);
+                $('#box').append('Logged in');
+                $('#box').transition({
+                    opacity: 1,
+                    rotateY: 360
+                },  780, 'ease-out');
+                });
+        }
+        
+    }    
+    );
+    
+    $("input").focus(function() {
+   		$('#wrong_info').animate({ width:""},500);//After Give a wrong user or pw error,everytime you start to refill the box, the error disappear
+    });
+    
+    $("#userpassword").focusout(function() {
+        if($(this).val()=='') {//if pw is empty,inform to user.
+        	$('#emp_name2').html('忘记输入了密码了?');// info
+            $('#emp_name2').animate({ width:"150px"},500);//appear it
+        } else $('#emp_name2').animate({ width:""},200); // when user jump to another box,if it is filled, disappeared
+    });
+    
+    $("#username").focusout(function() {
+        if($(this).val()=='') {//same as above
+        	$('#emp_name1').html('忘记输入用户名了?');
+            $('#emp_name1').animate({ width:"150px"},500);
+        } else $('#emp_name1').animate({ width:""},200);
+    });
+</script>
+	
+</body>
+</html>

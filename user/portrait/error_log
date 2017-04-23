@@ -1,0 +1,66 @@
+[07-Nov-2015 18:56:40 America/Denver] PHP Warning:  imagecreatefromjpeg(/upload/lo5.png): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 6
+[07-Nov-2015 18:56:40 America/Denver] PHP Notice:  Undefined index: x in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:56:40 America/Denver] PHP Notice:  Undefined index: y in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:56:40 America/Denver] PHP Notice:  Undefined index: w in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:56:40 America/Denver] PHP Notice:  Undefined index: h in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:56:40 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:56:40 America/Denver] PHP Warning:  imagejpeg(/uploads/1/): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 17
+[07-Nov-2015 18:56:55 America/Denver] PHP Warning:  imagecreatefromjpeg(/upload/lo5.png): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 6
+[07-Nov-2015 18:56:55 America/Denver] PHP Notice:  Undefined index: x in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:56:55 America/Denver] PHP Notice:  Undefined index: y in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:56:55 America/Denver] PHP Notice:  Undefined index: w in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:56:55 America/Denver] PHP Notice:  Undefined index: h in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:56:55 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:56:57 America/Denver] PHP Warning:  imagecreatefromjpeg(/upload/lo5.png): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 6
+[07-Nov-2015 18:56:57 America/Denver] PHP Notice:  Undefined index: x in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:56:57 America/Denver] PHP Notice:  Undefined index: y in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:56:57 America/Denver] PHP Notice:  Undefined index: w in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:56:57 America/Denver] PHP Notice:  Undefined index: h in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:56:57 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:57:10 America/Denver] PHP Warning:  imagecreatefromjpeg(/uploads/lo5.png): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 6
+[07-Nov-2015 18:57:10 America/Denver] PHP Notice:  Undefined index: x in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:57:10 America/Denver] PHP Notice:  Undefined index: y in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:57:10 America/Denver] PHP Notice:  Undefined index: w in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:57:10 America/Denver] PHP Notice:  Undefined index: h in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:57:10 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:57:27 America/Denver] PHP Warning:  imagecreatefromjpeg(../uploads/lo5.png): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 6
+[07-Nov-2015 18:57:27 America/Denver] PHP Notice:  Undefined index: x in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:57:27 America/Denver] PHP Notice:  Undefined index: y in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:57:27 America/Denver] PHP Notice:  Undefined index: w in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:57:27 America/Denver] PHP Notice:  Undefined index: h in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:57:27 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:08 America/Denver] PHP Warning:  imagecreatefromjpeg(../uploads/lo5.png): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 6
+[07-Nov-2015 18:58:08 America/Denver] PHP Notice:  Undefined index: x in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:58:08 America/Denver] PHP Notice:  Undefined index: y in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:58:08 America/Denver] PHP Notice:  Undefined index: w in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:08 America/Denver] PHP Notice:  Undefined index: h in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:08 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:08 America/Denver] PHP Warning:  imagejpeg(/uploads/1/): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 14
+[07-Nov-2015 18:58:11 America/Denver] PHP Warning:  imagecreatefromjpeg(../uploads/lo5.png): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 6
+[07-Nov-2015 18:58:11 America/Denver] PHP Notice:  Undefined index: x in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:58:11 America/Denver] PHP Notice:  Undefined index: y in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:58:11 America/Denver] PHP Notice:  Undefined index: w in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:11 America/Denver] PHP Notice:  Undefined index: h in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:11 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:11 America/Denver] PHP Warning:  imagejpeg(/uploads/1/): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 14
+[07-Nov-2015 18:58:42 America/Denver] PHP Warning:  imagecreatefromjpeg(../uploads/1.jpg): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 6
+[07-Nov-2015 18:58:42 America/Denver] PHP Notice:  Undefined index: x in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:58:42 America/Denver] PHP Notice:  Undefined index: y in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 9
+[07-Nov-2015 18:58:42 America/Denver] PHP Notice:  Undefined index: w in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:42 America/Denver] PHP Notice:  Undefined index: h in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:42 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 10
+[07-Nov-2015 18:58:42 America/Denver] PHP Warning:  imagejpeg(/uploads/1/): failed to open stream: No such file or directory in /home1/sweetgre/public_html/qafone/user/portrait/newtry.php on line 14
+[24-Apr-2016 09:56:04 America/Denver] PHP Notice:  Use of undefined constant temppath - assumed 'temppath' in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:04 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:06 America/Denver] PHP Notice:  Use of undefined constant temppath - assumed 'temppath' in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:06 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:06 America/Denver] PHP Notice:  Use of undefined constant temppath - assumed 'temppath' in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:06 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:06 America/Denver] PHP Notice:  Use of undefined constant temppath - assumed 'temppath' in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:06 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:06 America/Denver] PHP Notice:  Use of undefined constant temppath - assumed 'temppath' in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:06 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:07 America/Denver] PHP Notice:  Use of undefined constant temppath - assumed 'temppath' in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:07 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:11 America/Denver] PHP Notice:  Use of undefined constant temppath - assumed 'temppath' in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56
+[24-Apr-2016 09:56:11 America/Denver] PHP Fatal error:  Cannot pass parameter 2 by reference in /home1/sweetgre/public_html/qafone/user/portrait/uploadpic.php on line 56

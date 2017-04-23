@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="register_code.css" rel="stylesheet" type="text/css" />	
+<script>
+var hashids = new Hashids("this is my salt", 8, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890");
+
+var id = hashids.encode(1, 2, 3);
+var numbers = hashids.decode(id);
+
+$("#input").text("["+numbers.join(", ")+"]");
+$("#output").text(id);
+</script>	
+</head>
+<body>
+	<ul>
+	  <li>
+		    <div>Input</div>
+		    <div>Output</div>
+	  </li>
+  	<li>
+		    <div id="input"></div>
+		    <div id="output"></div>
+	  </li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,2 @@
+[04-Nov-2015 18:44:20 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home1/sweetgre/public_html/qafone/scripts/hashids.php-1.0.5/tests/HashidsTest.php on line 5
+[04-Nov-2015 18:44:22 America/Denver] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home1/sweetgre/public_html/qafone/scripts/hashids.php-1.0.5/tests/HashidsTest.php on line 5

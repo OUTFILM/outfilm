@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'PingFang-Regular';
+    src: url('/scripts/pingfang/PingFangReg.eot');
+    src: url('m/scripts/pingfang/PingFangReg.eot?#iefix') format('embedded-opentype'),
+    url('/scripts/pingfang/PingFangReg.svg#PingFang-Regular') format('svg'),
+    url('/scripts/pingfang/PingFangReg.woff') format('woff'),
+    url('/scripts/pingfang/PingFangReg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#commentContainer {
+	margin-left: 0px;
+	margin-top:30px;
+}
+
+#livechatsend {
+	height: 40px;
+	float: left;
+	font-weight: bold;
+}
+
+.k-input {
+	font-size: 10px;	
+}
+
+#commentbox {
+	width: 750px;
+	font-family: 'PingYang-Regular', Microsoft YaHei;
+	font-size: 12px;
+	height: 70px;
+	float: left;	
+	-webkit-box-shadow: 1px 13px 61px -13px rgba(74,66,74,1);
+	-moz-box-shadow: 1px 13px 61px -13px rgba(74,66,74,1);
+	box-shadow: 1px 13px 61px -13px rgba(74,66,74,1);
+	border-radius: 8px;
+	background: rgba(247,244,247,1);
+	background: -moz-linear-gradient(-45deg, rgba(247,244,247,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(247,244,247,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(247,244,247,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(247,244,247,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(247,244,247,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: linear-gradient(135deg, rgba(247,244,247,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f4f7', endColorstr='#ededed', GradientType=1 );
+	margin-bottom: 1em;
+}
+
+#comment_show_box {
+	margin-top: 1.3em;
+	padding-top: 1.3em;
+	width: 750px;
+	margin-bottom: 3em;
+	clear: both;
+}
+
+.commentmsg {
+	margin-top: 1.1em;
+	margin-bottom: 5px;
+	margin-left: 0;
+	margin-right: 5px;
+	clear: both;
+	float: left;
+	width: 750px;
+	border-top: 1px solid #ddd;
+	padding-top: 12px;
+	/* background-color: #f5f8fd; 
+	border-radius: 8px; */
+}
+
+.comment_avatar {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0;
+}
+
+.comment_white {
+	margin-left: 7px;
+	padding: 0 0 5px 0;
+	min-height: 50px;
+	display: inline-block;
+	word-wrap: break-word;
+	width: 690px;	
+}
+.comment_white a:link, .comment_white a:visited {
+	text-decoration: none;
+	color: #2266ff;
+}
+.commentmsg p {
+	margin: 0 0 6px 0;
+	padding: 0;
+	font-family: 'PingYang-Regular', Microsoft YaHei;
+	font-size: 9pt;
+}
+
+
+/* livechat toolbar */
+
+#livechat_toolbar {
+	padding: 3px;
+	width: 411px;
+}
+
+.ui-button {
+	font-size: 8pt;
+}
+
+#livechat_format {
+	display: inline-block;
+}
+
+.livechat_menu {
+	width: 142px;
+}
+.livechat_menu li {
+
+}
+.ui-menu .ui-menu-item {
+    width: 133px;
+	font-size: 10pt;
+    margin: 0px;
+    padding: 4px;	
+}
+
+.livechat_toolbar_emoji_menu li {
+	float: left;
+	height: 22px;
+	width: 22px;
+}
+
+.rainbow {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: none;
+  font: normal normal bold 30px/normal "PingYang-Regular", "Bad Script", Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 0 0 rgb(217,31,38) , 6px 0 0 rgb(226,91,14) , 9px 0 0 rgb(245,221,8) , 12px 0 0 rgb(5,148,68) , 15px 0 0 rgb(2,135,206) , 18px 0 0 rgb(4,77,145) , 21px 0 0 rgb(42,21,113) ;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.rainbow:hover {
+  text-shadow: -3px 0 0 rgb(217,31,38) , -6px 0 0 rgb(226,91,14) , -9px 0 0 rgb(245,221,8) , -12px 0 0 rgb(5,148,68) , -15px 0 0 rgb(2,135,206) , -18px 0 0 rgb(4,77,145) , -21px 0 0 rgb(42,21,113) ;
+  -webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.unicorn {
+	font-weight: bold;
+	font-size: 24pt;
+	word-spacing: -8pt;
+	padding: 5px;
+}
+
+.unicorn span {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.unicorn:hover span {      
+	text-decoration: overline underline;
+	cursor:pointer;    
+    -webkit-animation: colorRotate 6s linear 0s infinite;
+     -moz-animation: colorRotate 6s linear 0s infinite;
+       -o-animation: colorRotate 6s linear 0s infinite;
+          animation: colorRotate 6s linear 0s infinite;
+}
+
+@-webkit-keyframes colorRotate {
+    from {
+        color: rgb(255, 0, 0);
+    }
+    16.6% {
+        color: rgb(255, 0, 255);
+    }
+    33.3% {
+        color: rgb(0, 0, 255);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    66.6% {
+        color: rgb(0, 255, 0);
+    }
+    83.3% {
+        color: rgb(255, 255, 0);
+    }
+    to {
+        color: rgb(255, 0, 0);
+    }
+}
+
+@-moz-keyframes colorRotate {
+    from {
+        color: rgb(255, 0, 0);
+    }
+    16.6% {
+        color: rgb(255, 0, 255);
+    }
+    33.3% {
+        color: rgb(0, 0, 255);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    66.6% {
+        color: rgb(0, 255, 0);
+    }
+    83.3% {
+        color: rgb(255, 255, 0);
+    }
+    to {
+        color: rgb(255, 0, 0);
+    }
+}
+
+@-o-keyframes colorRotate {
+    from {
+        color: rgb(255, 0, 0);
+    }
+    16.6% {
+        color: rgb(255, 0, 255);
+    }
+    33.3% {
+        color: rgb(0, 0, 255);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    66.6% {
+        color: rgb(0, 255, 0);
+    }
+    83.3% {
+        color: rgb(255, 255, 0);
+    }
+    to {
+        color: rgb(255, 0, 0);
+    }
+}
+
+@keyframes colorRotate {
+    from {
+        color: rgb(255, 0, 0);
+    }
+    16.6% {
+        color: rgb(255, 0, 255);
+    }
+    33.3% {
+        color: rgb(0, 0, 255);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    66.6% {
+        color: rgb(0, 255, 0);
+    }
+    83.3% {
+        color: rgb(255, 255, 0);
+    }
+    to {
+        color: rgb(255, 0, 0);
+    }
+}

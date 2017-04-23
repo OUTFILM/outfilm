@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Changelog for Kendo UI v2015.3.1111 (November 11, 2015)</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font: .75em/1.5 Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            font-size: normal;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: normal;
+
+            margin: 1.2em 0 .3em;
+            padding-bottom: .2em;
+        }
+
+        .breaking {
+            background-color: #e10c01;
+            color: #fff;
+            border-radius: 3px;
+            padding: 3px 4px;
+            display: inline-block;
+            font-size: 11px;
+            line-height: 1;
+            font-weight: bold;
+        }
+
+        #page {
+            width: 50em;
+            margin: 0 auto 2em;
+            border-radius: 0 0 1em 1em;
+            box-shadow: 0 0 10px #ccc;
+            padding: 1em 2em 2em;
+        }
+
+        .poBoxIcon {
+            float: left;
+            font-size: 2em;
+            margin: 1.2em .5em 0 0;
+        }
+
+        .poTopLine {
+            border-top: 2px solid #e1e1e1;
+            margin: 17px 0 40px 0;
+        }
+    </style>
+
+    <base href="http://www.telerik.com/support/whats-new/kendo-ui-web/release-history">
+</head>
+<body>
+    <div id="page">
+        <h1 class="title">Release notes for Kendo UI v2015.3.1111</h1>
+
+        <h1>Components</h1>
+        <div class="tClear poTopLine">
+            <div class="poBoxIconText">
+                <p><strong>What's new</strong></p>
+<ul>
+<li>Mobile font icons should be defined in both :before and :after pseudo-elements</li>
+<li>Fix incorrect LESS file paths to work with webpack require</li>
+<li>Filter row clear button missing title attribute</li>
+</ul>
+                <p><strong>What's fixed</strong></p>
+<ul>
+<li>firstDay should be Sunday in en-US culture</li>
+<li>JS error when showing tooltips for SVG elements</li>
+<li>Kendo UI 2015 Q3 raises `System.register is not a function` on certain ASP.NET WebForms cases</li>
+<li>Incorrect text color for inputs in the Default theme</li>
+<li>Avoid registering web components more than once</li>
+</ul>
+            </div>
+        </div>
+
+
+        <div class="tClear poTopLine">
+            <h2>ActionSheet</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>ActionSheet closes instantly when tapping the background</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>ActionSheet closes after .open() is called from button click with data-click-on=down</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>AngularJS</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Calendar / AngularJS demo not working</li>
+<li>Widget throws an exception when select a value during data-binding</li>
+<li>k-rebind does not work for widgets that does not have wrapper element</li>
+<li>ng-model is not updated when widget value is changed</li>
+<li>Widget does not update ng-model correctly</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Application</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>kendo.mobile.view.js uses Angular debugging functions</li>
+<li>update the prefixed touch-action usage for mobile</li>
+<li>Router/History do not work in chrome packaged apps</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>AutoComplete</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Hide input [x] button shown under IE</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Widget throws an exception when select a value during data-binding</li>
+<li>Widget does not return correct dataItem when virtualialized</li>
+<li>Widget removes its value when a delayed filter request is received</li>
+<li>AutoComplete does not reset scroll to top virtualized list on filter</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Barcode</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Incorrect size when rendering as canvas</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Calendar</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Calendar / AngularJS demo not working</li>
+<li>Calendar is not marking today date</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Chart</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Provide reference to visual in noteClick and noteHover events</li>
+<li>The exportImage method now resizes the chart to match the specified width and height</li>
+<li>Add reference to the chart in the *Axis.title.visual function (e.sender)</li>
+<li>Add reference to the chart in the *Axis.labels.visual function (e.sender)</li>
+<li>Add reference to the chart in the series.errorBars.visual function (e.sender)</li>
+<li>Add reference to the chart in the series.highlight.visual function (e.sender)</li>
+<li>Add reference to the chart in the series.markers.visual function (e.sender)</li>
+<li>Add reference to the chart in the series.visual function (e.sender)</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Bars widths may vary +/- 1px</li>
+<li>Bar charts without borders are blurred in SVG output</li>
+<li>An error is thrown when setting series zIndex and there are missing points</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ComboBox</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Widget throws an exception when select a value during data-binding</li>
+<li>Widget does not return correct dataItem when virtualialized</li>
+<li>Widget shows "loading..." message when bound to local data</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ContextMenu</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Open event has wrong target argument</li>
+<li>ContextMenu with click setting behaves inconsistently</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DataSource</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Nested fields projected to a top level field is not serialize correctly</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DateTimePicker</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>ng-model is not updated when widget value is changed</li>
+<li>Widget does not update ng-model correctly</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Diagram</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Improve layout performance in IE11</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>widgets used inside shapeTemplate are not initialized</li>
+<li>Incorrect connectors are chosen when dynamically changing the layout</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Draggable</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>AutoScroll does not work as expected in Firefox</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Drawer</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>drawer does not apply title when opened with swipe</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Drawing</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>TypeScript: Add kendo.drawing.pdf.saveAs defintion</li>
+<li>TypeScript: Configuration options are now optional</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Image href is escaped when set on existing Image element</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DropDownList</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Widget throws an exception when select a value during data-binding</li>
+<li>Widget does not return correct dataItem when virtualialized</li>
+<li>Widget does not define a default group template when virtualization is enabled</li>
+<li>Widget does not focus first item when virtualization is turned on, option label is not defined and initial index is -1</li>
+<li>Widget does not reset its value when 'null' is passed to the value method</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Editor</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Start attribute of ordered lists is never serialized</li>
+<li>script tag content should not be displayed in the Editor when serialization.scripts is set to true</li>
+<li>JS error when pasting Word image object in IE 11</li>
+<li>ImageBrowser / FileBrowser cannot be activated via MVVM</li>
+<li>IE10 throws JS error on paste</li>
+<li>Not able to change text color to default</li>
+<li>Overflow button is duplicated when specifying tools and initializing multiple editors simultaneously</li>
+<li>Formatting not applied on new line</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Excel Export</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Selecting the Grid with Excel export and the Gantt chart component results in non-functional custom script</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Grid</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Hide input [x] button shown under IE</li>
+<li>Introduce navigate event when using keyboard navigation</li>
+<li>Add pdf.avoidLinks option to avoid hyperlinking &lt;a&gt; elements in PDF output</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>getOptions returns incorrect pageSize for the pageable options if the pageSize was changed</li>
+<li>Column template MVVM binding is not rebind when incell edit mode cell is closed</li>
+<li>Frozen columns jitter on horizontal scroll</li>
+<li>Enter does not expand/collapse group in editable grid with grouping</li>
+<li>IE8: Changing NumericTextBox value with keyboard in grid (batch editing) not possible</li>
+<li>Fix leaks in FilterCell widget</li>
+<li>editRow does not put row in edit mode if currently there is new row in edit mode</li>
+<li>Setting filterable dataSource breaks column menu filtering</li>
+<li>Pager not aligned in adaptive rendering</li>
+<li>Row has extra group cell when initial grouping is removed and autoBind is false</li>
+<li>Angular templates for filter cell template function are not complied</li>
+<li>MultiCheckbox filter DataSource configuration is not serialized by MVC 6 wrapper</li>
+<li>Grid data area does not scroll when tabbing through the header cells</li>
+<li>Footer template not aligned when there is locked column with hidden sub column</li>
+<li>Angular grid with k-rebind and column resizing gets rebound unexpectedly</li>
+<li>Cancel event is not fired when the 'escape' key is pressed</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ListView</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Endless Scrolling does not work with checkboxes and MVVM</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Map</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Tile size is set with inline style to allow using retina resolution tiles</li>
+<li>Shape and Tile layer setDataSource method, accepts DataSource instance or configuration</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Map breaks when zoomed out to maximum using gesture</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>MobileListView</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Missing styles for km-state-active in Nova theme</li>
+<li>Mobile ListView's click event is not fired if you scroll the widget while pull to refresh is in progress</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>MultiSelect</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Hide input [x] button shown under IE</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Widget throws an exception when select a value during data-binding</li>
+<li>JS error when adding new value after the widget's values were cleared</li>
+<li>Widget does not return correct dataItem when virtualialized</li>
+<li>Widget shows "loading..." message when bound to local data</li>
+<li>MultiSelect doesn't fetch the data source when autobind: false and serverFiltering: false are used</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>NavBar</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>navbar does not clear its title</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>PDF Export</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Rect shapes are not exported</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>PanelBar</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>PanelBar datasource items do not compile angular expressions</li>
+<li>PanelBar collapse-expand issue with animations.</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Scheduler</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Current range dates are not shown in the toolbar on mobile</li>
+<li>Scheduler timezones dependency cannot be selected in download builder</li>
+<li>Scheduler positions event with -1 day in Month view when load in BRT</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Scroller</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Widget does not re-position its content when dragged outside the device's screen</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Slider</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Slider does not work with small fractions.</li>
+<li>Calling resize() on a slider breaks the ability to select a value by clicking on the label</li>
+<li>Slide functionality does not work on touch device</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Sortable</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>autoScroll does not work if the scrollable container is the page body</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Spreadsheet</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li><span class='breaking'>Breaking</span> Breaking change: Serialize border width as a number (pixels)</li>
+<li>AutoFill tool</li>
+<li>Support typing percentage values in spreadsheet</li>
+<li>Support reject validation type</li>
+<li>Parse more date formats in spreadsheet</li>
+<li>Support copy and paste from the toolbar in Chrome</li>
+<li>Support list validation</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Spreadsheet does not look well when the cols/rows are fewer than the available viewport</li>
+<li>Pasting from external source does not work in Firefox and Edge</li>
+<li>BorderPalette layout is broken</li>
+<li>TabStrip initialization fails if the developer has extended Boolean JavaScript object</li>
+<li>Keyboard selection expansion does not work as expected near merged cells</li>
+<li>Spreadsheet is not working with RequireJS</li>
+<li>FormulaBar and FormulaInput are not synced in Firefox</li>
+<li>Layout issues in IE9</li>
+<li>Unable to start typing with Shift depressed</li>
+<li>External paste is allowed over a merged cell area</li>
+<li>Textarea element is visible on copy</li>
+<li>Spreadsheet theme issues</li>
+<li>Date filtering doesn't work</li>
+<li>Unchecked values from the filter menu appear as checked after the menu is reopen </li>
+<li>Combined scripts do not load in IE8 due to errors in Spreadsheet code</li>
+<li>The active row indicator is overlayed by sheet content</li>
+<li>Filtering percentage column by value yields no results</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>StockChart</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Bars widths may vary +/- 1px</li>
+<li>Bar charts without borders are blurred in SVG output</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TabStrip</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>TabStrip can't have selected item set when constructed from a datasource</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ThemeBuilder</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>JS error when modifying Nova theme</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ToolBar</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Toolbar URL configuration option does not work</li>
+<li>Changing the selected button in a group does not reset the selected button in overflow group</li>
+<li>Page scrolled down on Space when keyboard navigation enabled</li>
+<li>Attribute class ' ' removes already set css classes</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TreeList</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add itemFor method</li>
+<li>Add dragStart/drag/drop/dragEnd events</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Showing aggregates in the TreeList throws exception when root parentId is not nullable</li>
+<li>Enter key during editing submits enclosing form</li>
+<li>Excel export produces blank document when used with custom parentId field</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TreeMap</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Leafs on level bigger than 3 do not use range colors</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TreeView</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Loading animation is not displayed in Fiori / Material / Nova / Office365 themes</li>
+<li>Node added with the append method is not removed when the children has not yet been loaded and no children are returned with the Ajax request.</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Window</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Hidden widget renders the overflow screen when set modality with setOptions</li>
+<li>Unexpected animation plays on close when animation.close is false</li>
+<li>Setting the animation with setOptions() throws an error</li>
+</ul>
+        </div>
+        <h1>Wrappers (PHP)</h1>
+        <div class="tClear poTopLine">
+            <div class="poBoxIconText">
+                
+                
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php
+Options -Indexes
+
+ErrorDocument 404 /404.html
+
+# Mod Rewrite
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^uimg/([^/]+)/([^/]+) /scripts/img.php?user=$1&src=$2 [L,NC]
+#RewriteRule "^/uimg/(.+)/(.+)$" "/Article/article.php" [L,QSA]
+#RewriteRule ^test$ /Article/article.php

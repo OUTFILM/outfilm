@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cropper.js</title>
+  <link rel="stylesheet" href="cropper.css">
+  <script type="text/javascript" src="/includes/js/jquery-1.11.2.min.js"></script>
+  <style>
+    .container {
+      max-width: 300px;
+      margin: 20px auto;
+    }
+
+    .img-container {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .img-container img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Cropper with responsive container</h1>
+    <button type="button" id="replace">Replace Image</button>
+    <input type="file" name="file" id="inputImage" />
+    <div class="img-container">
+      <img  src="f1.jpg" alt="Picture" id="image" crossorigin="anonymous">
+    </div>
+  </div>
+
+  <script src="cropper.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      var test;
+      var image = document.querySelector('.img-container > img');
+      var cropper = new Cropper(image, {
+        movable: false,
+        zoomable: false,
+        rotatable: false,
+        scalable: false,
+        build: function () {
+          console.log('build');
+        },
+        built: function () {
+          console.log('built');
+        }
+	  });
+
+      document.getElementById('replace').onclick = function () {
+      	
+        //cropper.replace('f3.jpg');
+		// Upload cropped image to server if the browser supports `HTMLCanvasElement.toBlob
+		var formData = cropper.getCroppedCanvas().toDataURL();
+        var tempa
+        $.ajax({
+		        url: "/articlecover_up.php",
+		        type: "POST",
+		        data: {'img': formData },
+		}).done(function( data ) {
+		    console.log("PHP Output:");
+		    console.log( data );
+		    tempa = data;
+		    console.log('upload cpber!');
+			console.log( data );
+			tempa = data;
+			tempa = tempa.slice(1);
+			//console.log('1'+tempa)
+		    alert('上传成功!');
+		});
+		    console.log(formData);
+      };
+    
+    
+    
+    
+    
+   
+    $(function() {
+      var $image = $('#image');	
+	  var $inputImage = $('#inputImage');
+	  var URL = window.URL || window.webkitURL;
+	  var blobURL;
+	
+	  if (URL) {
+	  	
+	    $inputImage.change(function () {
+	     
+	      var files = this.files;
+	      var file;
+		  /*
+	      if (!$image.data('cropper')) {
+	      	console.log('7');
+	        return;
+	        
+	      }*/
+		 
+	      if (files && files.length) {
+	        file = files[0];
+	        
+	
+	        if (/^image\/\w+$/.test(file.type)) {
+	          
+	          /*$image.one('built.cropper', function () {
+	
+	            // Revoke when load complete
+	            URL.revokeObjectURL(blobURL);
+	          }).cropper('reset').cropper('replace', blobURL);*/
+	          blobURL = URL.createObjectURL(file);
+              cropper.reset().replace(blobURL);
+          	  inputImage.value = null;
+	          console.log('3');
+	          //$inputImage.val('');
+	        } else {
+	        	console.log('4');
+	          window.alert('Please choose an image file.');
+	        } 
+	        console.log('9');
+	      }
+	    });
+	  } else {
+	  	console.log('5');
+	    $inputImage.prop('disabled', true).parent().addClass('disabled');
+	  }
+    });
+    }); 
+  </script>
+</body>
+</html>

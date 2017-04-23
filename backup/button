@@ -1,0 +1,57 @@
+/*
+				<div class="Share_display_pop">
+					<div id="QQ_BOX">
+					<!-- QQ -->
+					<script type="text/javascript">
+					(function(){
+					var p = {
+					url:location.href,
+					showcount:'0', //是否显示分享总数,显示：'1'，不显示：'0' 
+					desc:'<?="$Share_Des"; ?>',//默认分享理由(可选)
+					summary:'',//分享摘要(可选)
+					title:'<?="$Art_Pop_Headline"; ?>',//分享标题(可选)
+					site:'<?="$Share_Url"; ?>',//分享来源 如：腾讯网(可选)
+					pics:'<?="$Pic_Pop_Link"; ?>', //分享图片的路径(可选)
+					style:'203',
+					width:22,
+					height:22
+					};
+					var s = [];
+					for(var i in p){
+					s.push(i + '=' + encodeURIComponent(p[i]||''));
+					}
+					document.write(['<a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?',s.join('&'),'" target="_blank">分享</a>'].join(''));
+					})();
+					</script>
+					<script src="http://qzonestyle.gtimg.cn/qzone/app/qzlike/qzopensl.js#jsdate=20111201" charset="utf-8"></script>
+					</div>
+					<!-- zuosi de renren
+					<div id="QQ_BOX">
+					<!-- RENREN 
+					<script type="text/javascript" src="http://widget.renren.com/js/rrshare.js"></script>
+					<a name="xn_share" onclick="shareClick()" type="icon" href="javascript:;"></a>
+					<script type="text/javascript">
+					function shareClick() {
+		  				var rrShareParam = {
+						resourceUrl : '<?="$Share_Url"; ?>',	//分享的资源Url
+						srcUrl : '',	//分享的资源来源Url,默认为header中的Referer,如果分享失败可以调整此值为resourceUrl试试
+						pic : '<?="$Pic_Pop_Link"; ?>',		//分享的主题图片Url
+						title : '<?="$Art_Pop_Headline"; ?>',		//分享的标题
+						description : '<?="$Share_Des"; ?>'	//分享的详细描述
+					};
+					rrShareOnclick(rrShareParam);
+					}
+					</script>
+					</div>
+					-->
+					<!-- douban-->
+					<div id="QQ_BOX">
+					<a href="javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e(d.location.href)+'&title='+e(d.title)+'&sel='+e(s)+'&v=1',x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r+'&r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()"><img src="http://img2.douban.com/pics/fw2douban_s.png" alt="推荐到豆瓣" /></a>
+					</div>
+					<!-- weibo-->
+					<div id="QQ_BOX1">
+						<wb:share-button addition="number" url="<?="$Share_Url"; ?>" title="<?="$Art_Pop_Headline"; ?>" pic="<?="$Pic_Pop_Link"; ?>" type="icon" ralateUid="1768888052"></wb:share-button>
+					</div>
+				</div>
+				 * 
+				 */ 

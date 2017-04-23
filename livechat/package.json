@@ -1,0 +1,9 @@
+{
+  "name": "socket-livechat",
+  "version": "0.0.1",
+  "description": "LiveChat by Doug Lee (c) 2015",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.5"
+  }
+}

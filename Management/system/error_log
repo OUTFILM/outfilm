@@ -1,0 +1,9 @@
+[03-Jun-2016 10:03:34 America/Denver] PHP Notice:  Undefined index: click_url in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 7
+[03-Jun-2016 10:03:34 America/Denver] PHP Notice:  Undefined index: notification in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 8
+[03-Jun-2016 10:03:34 America/Denver] PHP Notice:  Undefined index: author in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 9
+[03-Jun-2016 10:45:32 America/Denver] PHP Notice:  Undefined index: click_url in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 7
+[03-Jun-2016 10:45:32 America/Denver] PHP Notice:  Undefined index: notification in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 8
+[03-Jun-2016 10:45:32 America/Denver] PHP Notice:  Undefined index: author in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 9
+[03-Jun-2016 10:45:38 America/Denver] PHP Notice:  Undefined index: click_url in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 7
+[03-Jun-2016 10:45:38 America/Denver] PHP Notice:  Undefined index: notification in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 8
+[03-Jun-2016 10:45:38 America/Denver] PHP Notice:  Undefined index: author in /home1/sweetgre/public_html/qafone/Management/system/addsysmsg.php on line 9

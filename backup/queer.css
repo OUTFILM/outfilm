@@ -1,0 +1,924 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #f4f4f4;
+}
+
+html {
+	height: 100%;
+}
+
+
+.FlexWrapper {
+	/* whole body wrapper*/
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.FlexItems {
+	/* all items flex*/
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	min-height: 0.25rem;
+}
+
+#rainbow {
+	position: absolute;
+	right: 150px;
+	z-index: 1;
+}
+.FlexHeader {
+	background-color: rgba(52,64,88,1);
+	font-size: 1rem;
+	min-height: 2.75rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 1rem;
+	order: 1;
+}
+/*Menu Items*/
+.Logo {
+	
+}
+
+.logo img{
+	max-width: 100%;
+}
+
+.ListItem,
+.LastItem {
+    margin: 0;
+    height: 44px;
+    padding: 0px 10px;
+    color: #ebebeb;
+    text-decoration: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.LastItem a:link, .LastItem a:visited {
+	text-decoration: none;
+	color:white;
+}
+
+.LastItem a:hover {
+	color:lightblue;
+}
+
+
+.FlexHeader a:hover {
+	box-shadow: 0px 1px 1px 1px black;
+	background-color: rgba(52,64,88,0.5);
+}
+
+	
+.FlexContent {
+	background-color: white;
+	margin-top: 40px;
+	order: 2;
+	z-index: 100;
+	background: white;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.FlexNot {
+	background: white;
+	overflow:hidden;
+	order: 3;
+	border-bottom: 1px solid #f4f4f4;
+		
+}
+
+.search_box {
+	margin-left: auto;
+	padding-top:15px;
+}
+
+.FlexChatAndReport {
+	background: pink;
+	order: 6;
+	margin-top: 20px;
+	flex-direction: column;
+	background: #f4f4f4;
+	margin-bottom: 20px;	
+}
+
+.FlexChat {
+	background-color: white;
+	order: 7;
+	width: 100%;
+}
+
+.FlexReport {
+	
+	order: 8;	
+	width: 100%;
+	flex-direction: column;
+
+}
+/* FlexReport => TopBanner*/
+.TopBanner {
+	width: 100%;
+	height: 35px;
+	align-self: flex-start;
+	display: flex;
+	flex-direction: row;
+	background-color:  rgba(52,64,88,1);
+}
+/* FlexReport => TopBanner => TopTabs*/
+.TopTabs {
+	border: 1px solid;
+	width: 20%;
+	height: 90%;
+	display: flex;
+	align-self: center;
+	margin-left: auto;
+	display: inline;		
+}
+
+.TopBanner ul {
+	width: 100%;
+	height: 32px;
+	margin: 0;	
+}
+
+.TopBanner ul li {
+	width: 20%;
+	height: 95%;
+	display: flex;
+	align-self: center;
+	margin-left: auto;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: center;		
+}
+
+.TopBanner ul li a:active,.TopBanner ul li a:visited, .TopBanner ul li a:link {
+	text-decoration: none;
+	color: white;	
+}
+
+.TopBanner ul li a:hover {
+	color: rgba(52,64,88,1);
+}
+
+.TopBanner ul li:hover {
+	background-color: white;
+}
+
+/* FlexReport => FirstList*/
+.FlexReport_FirstBody {
+	
+	
+}
+
+.FlexReport_FirstBody a:link, .FlexReport_FirstBody a:visited, .FlexReport_RestBody a:active {
+	text-decoration: none;
+	color: black;
+}
+/* FlexReport => RestList*/
+.FlexReport_RestBody {
+	
+}
+.FlexReport_RestBody a:link, .FlexReport_RestBody a:visited, .FlexReport_RestBody a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.FirstBody_headline {
+	background: #ffffff;
+}
+
+.FlexReport_RestBody p , .FlexReport_FirstBody p{
+	color: gray;
+	font-size: 12px;
+	margin: 0;
+}
+
+.FlexReport_RestBody h4 , .FlexReport_FirstBody h4{
+	margin: 0;
+	font-style: normal;
+	height: 20px;	
+}
+
+.FlexReport_FirstBody img {
+	max-width: 150px;
+}
+/*7.1 Flextags => Rect*/
+.FlexTags_Rect {
+	background:  rgba(52,64,88,1);
+}
+
+.FlexTags_Rect p {
+	color: white;
+}
+/* FlexReport => Body*/
+.FlexReport_Body {
+	height: 410px;
+	background:white;
+	display: flex;
+	width: 100%;
+	padding-top: 5px;
+	
+}
+.FlexPoster {
+	border:none;
+	background-color: rgba(52,64,88,1);
+	order: 4;
+	flex-direction: column;
+	alignment-content: flex-start;
+}
+
+.FlexSchedule {
+	order: 5;
+}
+
+/* FlexTag */
+.FlexTags {
+	order: 9;
+	
+}
+.FlexTags_Rect {
+	border-radius: 5px;
+    text-align: center;
+}
+
+	
+.FlexArticle {
+	background-color: #f4f4f4;
+	order: 10;
+	flex-direction: column;
+}
+
+.FlexArticle_NewsContainer {
+	flex-direction: column;  
+	margin: 1em 0 0 0 ;
+	width: 100%;
+	box-shadow: 2px 2px 2px #888888;
+	border-left: 1px solid #d9d9d9;
+}
+.FlexArticle_NewsContainer_Picture img{
+	max-width: 100%;			
+}
+	
+/* 6.0.1 Cover container for news */
+.FlexArticle_NewsContainer_Picture {
+	padding: 0;
+	width: 100%;
+	margin: 0;			 
+}
+/* 6.0.2 Headline container for news */
+.FlexArticle_NewsContainer_Headline {
+	padding: 0;
+	width: 100%;
+	margin: 0;			
+}
+/* 6.0.3 TimeStamp container for news */
+.FlexArticle_NewsContainer_TimeStamp {
+	padding: 0;
+	width: 100%;
+	margin: 0;			
+}
+
+.FlexColumn1 {
+	background-color: #f4f4f4;
+	order: 10;
+	order: 9;
+	width: 100%;
+	flex-direction: column;
+}
+
+.FlexColumn2 {
+	background-color: #f4f4f4;
+	order: 11;
+	width: 100%;
+	flex-direction: column;
+}
+
+.FlexColumn3 {
+	background-color: #f4f4f4;
+	order: 12;
+	width: 100%;
+	flex-direction: column;
+}
+/* MEDIA CHANGE THE VIEW WHEN IT IS BIGGER SCREEN */
+@media (min-width: 30rem) {
+	/* if viewpoint lower than 480px*/
+	.FlexWrapper {
+		/* row wrap between row */
+		flex-flow: row wrap;
+	}
+	.FlexHeader {
+	/* 1.Top Banner */
+		width: 100%;
+		padding: 0;	
+		flex-direction: row;
+	}
+	.signin_container {
+		width: 120px;
+		height: 90%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.panel_icon , .panel_key, .portrait_panel {
+		display: flex;
+		height: 100%;
+	}
+	.portrait_panel {
+		margin-right: 10px;
+	}
+	.panel_key a:link, .panel_key a:active,.panel_key a:visited{
+		text-decoration: none;
+		color: white;	
+	}
+	.panel_key a:hover {
+		text-decoration: none;
+		color: #2288ff;	
+	}
+	/* Banner Items */
+	.Logo {
+		width: 100px;
+		height: 40px;
+		margin-left: 142px;
+		margin-right: 1.5rem;
+		color: white;
+		font-size: 25px;
+        line-height: 40px;
+
+	}
+	.ListItem {
+		
+	}
+	
+	.LastItem {
+		margin-left: auto;
+	}	
+	.FlexContent {
+	/* 2.Slide Show */
+		width: 80%;
+		height: 350px;
+		padding: 0;
+		/*align-items: center;*/		
+	}
+	.FlexNot {
+	/* 3. Noticication */
+		width: 80%;
+		height: 50px;
+		padding: 0;	
+	}
+	.FlexChatAndReport {
+	/* 4. Wrapper for Notification and Chat Room  */
+		width: 80%;
+		height: 450px;
+		justify-content: space-between;
+		padding: 0;
+		flex-direction: row;	
+	}
+	.FlexChat {
+	/* 4.1 Chat Room  */
+		width: 45%;
+		height: 100%;
+		padding: 0;
+	}	
+	.FlexReport {
+	/* 4.2 Top Report*/
+		width: 45%;
+		height: 100%;
+		padding: 0;
+		flex-direction: column;
+	}
+	/* 4.2.1 FlexReport => TopBanner*/
+	.TopBanner {
+		height: 35px;
+	}
+	/* 4.2.1.1 FlexReport => TopBanner => TopTabs*/
+	.TopTabs {
+	    height: 35px;
+	    width: 20%;
+	    margin: 0;
+	    text-align: center;
+    	text-decoration: none;
+    	line-height: 35px;
+	}
+	
+	/* 4.2.2 FlexReport => Body*/
+	.FlexReport_Body {
+		flex-direction: column;
+	}
+	/* 4.2.2.1 FlexReport => FirstList*/
+	.FlexReport_FirstBody {
+		height: 200px;
+		width: 90%;
+		display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+	}
+	/* 4.2.2.2 FlexReport => RestList*/
+	.FlexReport_RestBody {
+		height: 40px;
+		width: 90%;
+		display: flex;
+        flex-direction: column;
+	}
+	
+	.FirstBody_headline {
+		width: 60%;
+		height 90%;
+		
+	}
+	
+	/*7 Flextags*/
+	.FlexTags {
+		width: 80%;
+		height:50px;
+		padding: 0;
+		flex-direction: row;
+		justify-content: space-between;
+		
+	}
+	/*7.1 Flextags => Rect*/
+	.FlexTags_Rect {
+		width: 50px;
+		height: 46px;
+		margin: 0px;
+		border-bottom: 4px solid white;/*red:#FF545D orange:#FFA845 yell:#FFF945 green:45FF51 blue:459CFF purple:B545FF*/
+	}
+	.FlexPoster {
+	/* 5. Poster*/
+		width: 80%;
+		height: 330px;
+		padding: 0;
+		align-items: flex-start;
+	}
+	.FlexPoster h3 {
+		color:white;
+	}
+	
+	/* */
+	
+	
+	/* 6. Wrapper for 3 columns of news  */
+	.FlexArticle {
+		width: 80%;
+		padding: 10px 0 0 0;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	/* 6.0 container for news */
+	.FlexArticle_NewsContainer {
+		width: 100%;
+		padding: 0;	
+	}
+	/* 6.0.1 Cover container for news */
+	.FlexArticle_NewsContainer_Picture {
+		padding: 0;			
+	}
+	
+	/* 6.0.2 Headline container for news */
+	.FlexArticle_NewsContainer_Headline {
+		padding: 0;			
+	}
+	/* 6.0.3 TimeStamp container for news */
+	.FlexArticle_NewsContainer_TimeStamp {
+		padding: 0;
+		height: 30px;			
+	}
+	
+	.FlexArticle_NewsContainer_TimeStamp em {
+		color:#45A1BF;
+	}
+	
+	.FlexColumn1 {
+	/* 6.1 column 1*/
+		width: 30%;
+		height: 100%;
+		padding: 0;
+		align-self: flex-start;
+	}
+	
+	.FlexColumn2 {
+	/* 6.2 column 2*/
+		width: 30%;
+		height: 100%;
+		padding: 0;
+		align-self: flex-start;
+	}
+	
+	.FlexColumn3 {
+	/* 6.3 column 3*/
+		width: 30%;
+		height: 100%;
+		padding: 0;
+		align-self: flex-start;
+	}
+}
+
+/* end of @media */
+.overflow_1 {
+  width: 300px;
+  margin: 0 0 2em 0;  
+  text-overflow: ellipsis;
+  /**
+   * Required properties to achieve text-overflow
+   */
+   white-space: nowrap;
+   overflow: hidden;
+ }
+
+.overflow {
+  width: 400px;
+  margin: 0 0 2em 0;  
+  text-overflow: ellipsis;
+  /**
+   * Required properties to achieve text-overflow
+   */
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.Scroll_Wrapper {
+	width: 100%;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	/*Give us inertia style scrolling on WebKit based touch devices*/
+	-webkit-overflow-scrolling: touch;
+	/*Remove the scrollbars in supporting versions of IE*/
+	-ms-overflow-style: none;
+	/* Make a counter */
+	counter-reset: count-the-films;
+}
+
+/*Stops the scrollbar appearing in WebKit browsers*/
+.Scroll_Wrapper::-webkit-scrollbar {
+	display: none;
+}
+
+.Item {
+	margin: 0px;
+	padding: 0px;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	white-space: normal;
+	counter-increment: count-the-films;
+	position: relative;
+}
+
+.Item img {
+	max-height: 250px;
+}
+
+.Caption {
+	max-width: 4rem;
+	padding-left: .5rem;
+	font-size: 1.2rem;
+	line-height: 1.2;
+}	
+.FlexPoster h3 {
+	display: flex;
+	padding: 0px 5px;
+	margin: 10px;
+}
+
+.Item img {
+	/*Posters changed when screen is small*/
+	max-height: 250px;
+}
+
+/*Create A Cross*/
+.close {
+	position: relative;
+  	display: flex;
+  	align-self: flex-start;
+  	width: 32px;
+  	height: 32px;
+ 	opacity: 0.3;
+}
+.close:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+.close:before, .close:after {
+  	position: absolute;
+  	left: 15px;
+  	content: ' ';
+  	height: 33px;
+ 	width: 2px;
+ 	background-color: white;
+}
+.close:before {
+  	transform: rotate(45deg);
+}
+.close:after {
+  	transform: rotate(-45deg);
+}
+/*End of Create A Cross*/
+
+
+/* SlidesJS Optional: If you'd like to use this design */
+
+    #slides {
+      display: none
+      
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: white
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+/* End SlidesJS Optional */
+
+/* SlidesJS Required: These styles are required if you'd like a responsive slideshow */
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0;
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: 100%;
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: 100%;
+
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px;
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1150px;
+      }
+    }
+    
+    @media (min-width: 1500px) {
+      .container {
+        width: 1350px;
+      }
+      .FlexContent {
+      	margin-bottom:70px;
+      	margin-top:70px;
+      }
+    }
+ 
+  /*SlidesJS Required: */
+ .box {
+    color: rgba(52,64,88,.75);
+    font-weight: bold;
+    border: 1px solid rgba(52,64,88,.75);
+    padding: 3px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*Return to top button Style*/
+#elevator_item {
+width: 60px;
+height: 100px;
+position: fixed;
+right: 15px;
+bottom: 10px;
+-webkit-transition: opacity .4s ease-in-out;
+-moz-transition: opacity .4s ease-in-out;
+-o-transition: opacity .4s ease-in-out;
+opacity: 1;
+z-index: 100020;
+display: none;
+}
+#elevator_item.off {
+opacity: 0;
+visibility: hidden
+}
+#elevator {
+display: block;
+width: 60px;
+height: 50px;
+background: url(img/icon_top.png) center center no-repeat;
+background-color:  rgba(52,64,88,.65);
+border-radius: 2px;
+box-shadow: 0 1px 3px rgba(0,0,0,.2);
+cursor: pointer;
+margin-bottom: 10px
+}
+#elevator:hover {
+background-color: rgba(52,64,88,.75);
+}
+#elevator:active {
+background-color: rgba(52,64,88,.8);
+}
+#elevator_item .qr {
+display: block;
+width: 60px;
+height: 40px;
+border-radius: 2px;
+box-shadow: 0 1px 3px rgba(0,0,0,.2);
+cursor: pointer;
+background: url(img/icon_code.png) center center no-repeat;
+background-color: #444;
+background-color:  rgba(52,64,88,.65);
+}
+#elevator_item .qr:hover {
+background-color: rgba(52,64,88,.75);
+}
+#elevator_item .qr:active {
+background-color: rgba(52,64,88,.8);
+}
+#elevator_item .qr-popup {
+width: 170px;
+height: 200px;
+background: #fff;
+box-shadow: 0 1px 8px rgba(0,0,0,.1);
+position: absolute;
+left: -180px;
+bottom: 0;
+border-radius: 2px;
+display: none;
+text-align: center
+}
+#elevator_item .qr-popup .code-link {
+display: block;
+margin: 10px;
+color: #777
+}
+#elevator_item .qr-popup .code {
+display: block;
+margin-bottom: 10px
+}
+#elevator_item .qr-popup .arr {
+width: 6px;
+height: 11px;
+background: url(img/code_arrow.png) 0 0 no-repeat;
+position: absolute;
+right: -6px;
+bottom: 14px
+}
+/*Return to top button Style ends*/
+
+input[type=text] {
+    background: transparent;
+    background: rgba(163, 135, 106, 0.15);
+    background-clip: padding-box;
+    
+    border: none;
+    border-radius:         26px;
+    -moz-border-radius:    26px;
+    -o-border-radius:      26px;
+    -webkit-border-radius: 26px;
+    
+    box-shadow:         inset 0 0 5px rgba(0, 0, 0, 0.1), 
+                        0 1px 0 rgba(255, 255, 255, 0.5), 
+                        inset 0 1px 2px rgba(0, 0, 0, 0.3), 
+                        0 0 40px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow:    inset 0 0 5px rgba(0, 0, 0, 0.1), 
+                        0 1px 0 rgba(255, 255, 255, 0.5), 
+                        inset 0 1px 2px rgba(0, 0, 0, 0.3), 
+                        0 0 40px rgba(255, 255, 255, 0.3);
+    -o-box-shadow:      inset 0 0 5px rgba(0, 0, 0, 0.1), 
+                        0 1px 0 rgba(255, 255, 255, 0.5), 
+                        inset 0 1px 2px rgba(0, 0, 0, 0.3), 
+                        0 0 40px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), 
+                        0 1px 0 rgba(255, 255, 255, 0.5), 
+                        inset 0 1px 2px rgba(0, 0, 0, 0.3), 
+                        0 0 40px rgba(255, 255, 255, 0.3);
+    
+    color: white;
+    height: 26px;
+    outline: none;
+    padding: 0 20px 0 35px;
+    
+    transition:         all .1s linear;
+    -moz-transition:    all .1s linear;
+    -o-transition:      all .1s linear;
+    -webkit-transition: all .1s linear;
+    
+    width: 185px;
+}
+
+input:focus {
+    background: transparent;
+    background: rgba(163, 135, 106, 0.2);
+
+    box-shadow:         inset 0 0 5px rgba(0, 0, 0, 0.2), 
+                        0 1px 0 rgba(255, 255, 255, 0.7), 
+                        inset 0 1px 2px rgba(0, 0, 0, 0.4), 
+                        0 0 40px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow:    inset 0 0 5px rgba(0, 0, 0, 0.2), 
+                        0 1px 0 rgba(255, 255, 255, 0.7), 
+                        inset 0 1px 2px rgba(0, 0, 0, 0.4), 
+                        0 0 40px rgba(255, 255, 255, 0.5);
+    -o-box-shadow:      inset 0 0 5px rgba(0, 0, 0, 0.2), 
+                        0 1px 0 rgba(255, 255, 255, 0.7), 
+                        inset 0 1px 2px rgba(0, 0, 0, 0.4), 
+                        0 0 40px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), 
+                        0 1px 0 rgba(255, 255, 255, 0.7), 
+                        inset 0 1px 2px rgba(0, 0, 0, 0.4), 
+                        0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+
+input[type=submit],label {
+	
+    border: none;
+    background: transparent url("http://f.cl.ly/items/2a2Z0V0L0J1p3V082d3r/icon-search.png") no-repeat top left;
+    cursor: pointer;
+    height: 17px;
+    text-indent: -99999px;
+    width: 8px;
+    display: block;
+    position: relative;
+    top: -21px;
+    left: 5px;
+}
+/* slide up notification */
+ul,li{list-style:none; margin:0; padding:0;}
+.scroll{ width:800px; height:175px; overflow:hidden;margin-left:20px; margin-top:40px;}
+.scroll li{ width:800px; height:45px; line-height:45px; overflow:hidden;}
+.scroll li a{ font-size:18px; color:#333; text-decoration:none;}
+.scroll li a:hover{ text-decoration:underline;}

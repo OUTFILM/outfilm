@@ -1,0 +1,61 @@
+[24-Dec-2015 17:48:48 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 14
+[24-Dec-2015 17:48:48 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':,'','','',NULL,'2015-12-24 17:48:48','0')' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:33
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 33
+[24-Dec-2015 17:50:26 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 14
+[24-Dec-2015 17:50:26 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':,'','','',NULL,'2015-12-24 17:50:26','0')' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:33
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 33
+[24-Dec-2015 18:09:46 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 14
+[24-Dec-2015 18:09:46 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':,'','','',NULL,'2015-12-24 18:09:46','0')' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:33
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 33
+[24-Dec-2015 18:14:25 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 14
+[24-Dec-2015 18:14:25 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':,'','','',NULL,'2015-12-24 18:14:25','0')' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:33
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 33
+[24-Dec-2015 18:16:01 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 7
+[24-Dec-2015 18:16:01 America/Denver] PHP Notice:  Undefined index: $ch_name in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 14
+[24-Dec-2015 18:16:01 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':,'','','','/','2015-12-24 18:16:01','0')' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:33
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 33
+[24-Dec-2015 18:18:00 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 7
+[24-Dec-2015 18:18:00 America/Denver] PHP Notice:  Undefined index: $ch_name in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 14
+[24-Dec-2015 18:18:00 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':,'','','','/','2015-12-24 18:18:00','0')' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:33
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 33
+[24-Dec-2015 18:28:16 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 7
+[24-Dec-2015 18:28:16 America/Denver] PHP Notice:  Undefined index: $ch_name in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 14
+[24-Dec-2015 20:01:30 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 7
+[21-May-2016 02:04:17 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 8
+[24-May-2016 07:59:54 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 8
+[24-May-2016 09:09:45 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'show) VALUES ('s','s','/uploads/6/57446eb400679_c.png','2016-05-24 09:09:45','11' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:39
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 39
+[24-May-2016 09:28:49 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 8
+[24-May-2016 09:28:49 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'show) VALUES ('ff','df','/','2016-05-24 09:28:49','1123','0')' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:39
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 39
+[24-May-2016 09:41:38 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 8
+[24-May-2016 09:41:38 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'show) VALUES ('ff','ff','/','2016-05-24 09:41:38','1234','0')' at line 1' in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php:39
+Stack trace:
+#0 /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 39
+[24-May-2016 10:06:58 America/Denver] PHP Notice:  Undefined index: temppath in /home1/sweetgre/public_html/qafone/Management/airpost/sendair.php on line 8

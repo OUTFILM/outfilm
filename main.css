@@ -1,0 +1,398 @@
+@media all {
+	.menu_sub { 
+		display: block;
+		float: left; 
+	}
+	#menu_popup_button { 
+		display: none; 
+	}
+
+}
+
+@media all and (max-width: 888px) {
+	.menu_sub { 
+		display: none;
+		background-color: black;
+		float: none;
+	}
+	#menu_popup_button { 
+		display: block; 
+	}
+
+}
+
+@media all and (max-width: 550px) {   
+	.menu_sub { 
+		display: none; 
+		float: none;
+	}
+	#menu_popup_button { 
+		display: block;
+	}
+	#page_container {
+
+	}
+}
+/*
+@font-face {
+    font-family: 'PingFang-Regular';
+    src: url('/scripts/pingfang/PingFangReg.eot');
+    src: url('m/scripts/pingfang/PingFangReg.eot?#iefix') format('embedded-opentype'),
+    url('/scripts/pingfang/PingFangReg.svg#PingFang-Regular') format('svg'),
+    url('/scripts/pingfang/PingFangReg.woff') format('woff'),
+    url('/scripts/pingfang/PingFangReg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'Hiragino Sans GB W3';
+    src: url('/scripts/hiragino/Hiragino Sans GB W6-webfont.woff') format('woff'),
+    url('/scripts/hiragino/Hiragino Sans GB W3.otf') format('otf'),
+    url('/scripts/hiragino/Hiragino Sans GB W3.ttf') format('truetype');	
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hiragino Sans GB W6';
+    src: url('/scripts/hiragino/Hiragino Sans GB W6-webfont.woff') format('woff'),
+    url('/scripts/hiragino/Hiragino Sans GB W6.ttf') format('truetype');	
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+	list-style-type:none;
+	margin: 0;
+	/*font-family: 'PingFang-Regular', YouYuan, Microsoft YaHei; */
+	font-family: 'Hiragino Sans GB W3', YouYuan, Microsoft YaHei;
+	/*background-image: url("/uploads/swirl_pattern.png");*/
+	font-size: 13px;
+	min-width: 800px;
+	color: #1f1f1f
+}
+
+#spot1 {
+	width: 100%;
+	height:362px;
+	margin:0;
+	
+}
+
+#spot1 img{
+	width: 100%;
+	height:100%;
+	
+}
+/*
+#spotl_container {
+	margin-left: auto;
+	margin-right: auto;
+	height: 443px;
+	width: 1040;
+	margin-top:30px;
+	margin-left: auto;
+	margin-right:auto;"
+}*/
+
+#spotl_container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1025px;
+	height:90%;
+	padding-top:5px;
+	padding-left:0px;
+	
+}
+
+
+#site_container {
+	min-width: 1280px;
+}
+
+#top_banner {
+	height: 110px; 
+	width: 400px; 
+	margin:0px;
+	clear: both;
+	margin-left:0;
+
+	background: url('/front/new logo.png') no-repeat -5px 0;
+	padding-left: 35px;
+
+}
+#top_container {
+	width: 1210px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+#menu {
+	width: 100%;
+	height: 37px;
+	clear: both;	
+	background: url('/front/banner.png') no-repeat;
+	padding-left: 70px;	
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+#menu_container {
+	/* width: 1480px; /*modified by daniel at july 3rd 2015*/ /* modified AGAIN by doug on 15-1031 */
+	width: 1280px;
+	margin-left: auto;	
+	margin-right: auto;
+	/*margin-left:100px; */
+}
+
+#menu_popup_button {
+	float: left;
+}
+#menu_popup_button img {
+	width: 25px;
+	margin: 8px;
+}
+#menu_popup_button:hover {
+	cursor: pointer;
+}
+
+.menu_sub {
+	width: 150px;
+	height: 35px;
+	margin: 0;
+}
+.menu_sub h1 {	
+	margin: 0;
+	padding-top: 8px;
+	padding-left: 3px;
+	height: 32px;
+	font-size: 18px;	
+	font-family: 'PingFang-Regular', YouYuan, Microsoft YaHei;
+}
+.menu_sub:hover {
+	background-color: white;
+	color: black;
+	height: 5px;
+}
+
+#search_bar {
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 7px;
+	border-left: 3px solid white;
+}
+/*
+.button {
+	color: white;
+	background-color: black;
+	border: 2px solid white;
+}
+.button:hover {
+	cursor:pointer;
+	color: black;
+	background-color: white;
+}
+
+input {
+	margin: 0;
+	padding: 2px;
+}
+*/
+
+
+
+#page_container {
+	max-width: 1150px; /*1020*/
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 15px solid red; */
+}
+
+#page_container h1 {
+	font-family: 'Hiragino Sans GB W6', YouYuan, Microsoft YaHei;
+}
+
+
+/*
+#menu_sub_leftmost {
+	width: 10%;
+	height: 35px;
+	border: 1px solid white;
+	margin-left: 220px;
+	float: left;
+	padding:auto;
+}
+*/
+
+/*Added ny Daniel Lee at 5/14/2015
+  ---------User panel ---------
+  */
+#panel {
+    width: 500px;
+    margin-left: 0px;
+    float: right;
+    padding: 0px;
+    position: absolute;
+    right: 150px;
+    top: 0;
+
+ }
+#logoqaf {
+	width: 84px;
+	height:50px;
+	margin-left: 30px;
+	float: left;
+	padding:0px;
+	margin-right: 50px;
+}
+			 #logoqaf img {
+			 	width:100%;
+			 	height:100%;
+			 } 
+.signin_container p,.signin_container span {
+	margin-top:0px;
+ 	font-size:11pt;
+	font-family: 'PingYang-Regular', 'Microsoft YaHei','微软雅黑',tahoma,arial,simsun,'宋体';
+	color: white;
+	text-decoration:none;
+ }
+ 
+ .signin_container p:hover, .signin_container span:hover
+ {
+ 	cursor:pointer;
+	color:#0FC0D1;
+	text-decoration: none;
+ }
+ 
+  .signin_container span:active {
+	text-decoration: none;
+  }
+ 
+ .signin_container {
+ 	margin-top: 5px;
+ 	height: 25px;
+ 	
+ 	float:right;
+ 	margin-left: 5px;
+ 	padding:3px;
+ 	
+ }
+#portrait_panel {
+	height: 22px;
+	width: 22px;
+	vertical-align: middle;
+	float: left;
+	margin-left: 0;
+	margin-top: 10px;
+	margin-right:10px;
+}
+ 
+.panel_icon {
+	margin-top:10px;
+ 	height: 20px;
+ 	width: 15px;
+ 	float:left;
+ 	margin-left: 5px;
+ 	padding-top:4px;
+
+ }
+ 
+.panel_key {
+	margin-top:10px;
+ 	height: 25px;
+ 	/*width: 40px;*/
+ 	float:left;
+ 	padding:0px;
+ 	font-size:16px;
+ }
+			  .panel_key a{
+			  	color: black;
+			  }
+/*******************************/
+#Top_logo {
+	height: 100px;
+	width: 400px;
+	margin-left: 0;
+	margin-top: 7px;
+	/*margin-left: auto;
+	margin-right: auto;
+	border: 1px solid blue;*/
+	background: url() no-repeat;
+	float: left;
+}
+
+#Top_logo1 {
+	height: 40%;
+	width: 15%;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin-top: 38px;
+    padding-top:20px;
+    font-size: 30px;
+}
+
+#top_rightpart {
+	position:absolute;
+	right:0;
+	top:0;
+	height: 100px;
+	width: 300px;
+	float:right;
+	/*border: 1px solid blue;*/
+}
+
+#top_contact {
+	height: 55%;
+	width: 300px;
+	float:right;
+	/*border: 1px solid black;*/
+	margin-top: 38px;
+	padding-top: 20px;
+}
+
+#Wholebody_buttop {
+	width: 100%;
+	border: 1px solid black;
+}
+.tag_hole {
+	background:white;
+	border-radius:10px;
+	width:10px;
+	height:10px;
+	position: relative;
+	left:-14px;
+	top:9px;
+}
+
+.tag {
+	padding: 0px 3px 0px 25px; 
+	margin: 5px 4px 4px 4px; 
+    background: rgba(52, 52, 52, 0.5); 
+    color: black; 
+   
+    font-weight: bold; 
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /*border-left: 15px solid #445561; */
+    display: inline-block;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.tag:hover:not(.active) {
+    background-color: rgba(21, 91, 136, 0.8);
+    color: black; /* teal */
+}
+.tag p {
+	padding:0px;
+	margin:0px;
+	position: relative;
+    top: -5px;
+	
+}

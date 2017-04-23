@@ -1,0 +1,58 @@
+#topbanner {
+	height:180px;
+	width:100%;
+	margin: 0;
+	background: url("/front/banner update.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/front/banner update.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/front/banner update.jpg', sizingMethod='scale')";
+}
+
+#topbanner img{
+	height:100%;
+	width:100%;
+}
+
+.menuu ul {
+	
+	height:58px
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #445561;
+    background: rgba(224, 247, 250, 0.3);*/
+     
+}
+
+.menuu li {
+	font-size:15px;
+    float: left;
+    border-right:1px solid #bbb;
+}
+.menuu li:first-child {
+    margin-left:200px;
+}
+.menuu li:last-child {
+    border-right: none;
+}
+
+.menuu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menuu li a:hover:not(.active) {
+    background-color: white;
+    color: #445561; /* teal */
+}
+
+.active-me {
+    background: rgba(21, 91, 136, 0.8);
+}

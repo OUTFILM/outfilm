@@ -1,0 +1,20 @@
+[16-Nov-2015 09:28:54 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 09:28:54 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 09:28:55 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 09:28:55 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 09:29:52 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 09:29:52 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 09:29:53 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 09:29:53 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 09:52:17 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 09:52:17 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 09:52:18 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 09:52:18 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 09:52:21 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 09:52:21 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 10:31:26 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 10:31:26 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 10:31:27 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 10:31:27 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20
+[16-Nov-2015 10:33:59 America/Denver] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home1/sweetgre/public_html/qafone/scripts/img.php on line 12
+[16-Nov-2015 10:33:59 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home1/sweetgre/public_html/qafone/scripts/img.php on line 20

@@ -1,0 +1,30 @@
+        /* Check use if click the cross, yes fade the box away */
+        /* Get the element of boxes */
+        var ChatRoom = document.getElementById("ChatRoom");
+        var TopRoom = document.getElementById("TopRoom");
+        var ChatNot = ChatRoom.parentNode; 
+        /* Get Crosses */
+        var CheckChat = document.getElementById("chat_corss");
+        var CheckTop = document.getElementById("top_corss");
+        $.fx.speeds._default = 600; //change default speed from 300 to 800
+        /* Fire the function if click handler is triggered */
+        CheckChat.addEventListener("click", function() {
+            $('.FlexChat').transition({ opacity: 0 },  function() { ChatRoom.style.invisibility = "hidden"; // prevent from right window automatically moves to left
+            /* if another disappered then the whole box fade away*/
+            	if (TopRoom.style.display == "none") {         // if another one is gone too then whole window is gone
+            		$('#ChatnNot').transition({ opacity: 0});  // Whole body of chat and top goes hidden 
+            		$('.FlexTags').transition({ y: -450, delay:0 }); // Article moves up
+            		$('.FlexArticle').transition({ y: -450, delay:0 }); // Article moves up
+            	}          
+            });
+        }, false);
+        CheckTop.addEventListener("click", function() { 
+            $('.FlexReport').transition({ opacity: 0 }, function() { TopRoom.style.display = "none"; 
+	            if (ChatRoom.style.invisibility == "hidden") {
+	            	ChatRoom.style.display = "none";
+	            	$('#ChatnNot').transition({ opacity: 0});
+	            	$('.FlexTags').transition({y: -450 , delay:0});
+	            	$('.FlexArticle').transition({y: -450 , delay:0});
+	            }            
+            });
+        }, false);
